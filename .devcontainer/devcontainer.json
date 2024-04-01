@@ -1,0 +1,16 @@
+{
+    "name": "cf-actionfeature",
+    "image": "jaxmarl-cf",
+    "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+    ],
+    "runArgs": [
+
+        "--gpus", "device=7"
+
+    ],
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    }
+}
